@@ -21,7 +21,7 @@
       $scope.result = {
         'bw': $scope.bw,
         'acctMax': $scope.bw + ' GB',
-        'acctStart': 'day 1 00:00',
+        'acctStart': 'month 1 00:00',
         'relayRate': relayRate + ' KBytes',
         'relayBurst': relayBurst + ' KBytes'
       };
