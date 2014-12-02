@@ -19,7 +19,7 @@ Based on the links below and some preliminary comments I've recieved, it seems l
 
 [https://www.torproject.org/docs/faq.html.en#BandwidthShaping](https://www.torproject.org/docs/faq.html.en#BandwidthShaping)
 
-[https://lists.torproject.org/pipermail/tor-dev/2014-September/007559.html](https://lists.torproject.org/pipermail/tor-dev/2014-September/007559.html]
+[https://lists.torproject.org/pipermail/tor-dev/2014-September/007559.html](https://lists.torproject.org/pipermail/tor-dev/2014-September/007559.html)
 
 [https://lists.torproject.org/pipermail/tor-dev/2014-September/007560.html](https://lists.torproject.org/pipermail/tor-dev/2014-September/007560.html)
 
