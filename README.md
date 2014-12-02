@@ -26,3 +26,11 @@ Based on the links below and some preliminary comments I've recieved, it seems l
 [https://lists.torproject.org/pipermail/tor-relays/2014-November/005850.html](https://lists.torproject.org/pipermail/tor-relays/2014-November/005850.html)
 
 [https://lists.torproject.org/pipermail/tor-relays/2011-September/000951.html](https://lists.torproject.org/pipermail/tor-relays/2011-September/000951.html)
+
+##TODO
+
+* Remove BandwidthRate and BandwidthBurst calculation
+* Add simple calculation for AccountingMax (bandwidth/mo - 5GB so there is enough bw for managing, etc.)
+* Incorporate the links above into a resources section
+* Add additional info about best practices for Bandwidth utilization
+* Add additional options for generating torrc files
