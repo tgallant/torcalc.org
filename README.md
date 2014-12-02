@@ -1,4 +1,4 @@
-[http://tor-calc.timgallant.us](http://tor-calc.timgallant.us)
+[http://torcalc.org](http://torcalc.org)
 
 ##Build
 
