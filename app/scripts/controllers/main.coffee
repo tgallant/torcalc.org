@@ -14,15 +14,12 @@ angular.module('torCalcApp')
     # function for performing bandwidth calculation
     $scope.search = (url=true) ->
 
-      relayRate = Math.round(((parseInt($scope.bw) * 1000000) / 2628000) / 2)
-      relayBurst = Math.round(relayRate + relayRate * .75)
+      acctMax = parseInt($scope.bw) - 5
 
       $scope.result =
         'bw' : $scope.bw,
-        'acctMax' : $scope.bw + ' GB',
-        'acctStart': 'month 1 00:00',
-        'relayRate': relayRate + ' KBytes',
-        'relayBurst': relayBurst + ' KBytes'
+        'acctMax' : acctMax.toString() + ' GB',
+        'acctStart': 'month 1 00:00'
 
       if url == true
         urlPath = '/?bw='+$scope.bw
