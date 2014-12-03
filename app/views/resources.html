@@ -6,8 +6,16 @@
   throughout the month and others say it is best to use up your
   bandwidth as fast as you can and hibernate until your data usage is
   reset.</p>
+<p>The main argument against hibernation is that the bandwidth authorities will
+  rate your relay lower if it isn't consistently pushing traffic. This
+  is not the case, however. A known relay with higher advertised bandwidth
+  will get more traffic than a more consistent relay with lower
+  bandwidth. On top of that, adding relays with adjusted bandwidth
+  rates can slow the rest of the network down. Even with a moderate amount
+  of available throughput the adjusted bandwidth rates are very slow
+  (500GB/mo translates to 190KB/s).</p>
 <p>The following are some links collected from the tor mailing list
-  and the tor wiki that are in favor of hibernation.</p> 
+  and the tor wiki that are in favor of hibernation/against bandwith rates.</p> 
 <p>Best quote: "That thing was probably slowing down the rest of the Tor network just by <i>existing</i>"</p>
 <ul>
   <li><a href="https://lists.torproject.org/pipermail/tor-dev/2014-September/007559.html">https://lists.torproject.org/pipermail/tor-dev/2014-September/007559.html</a></li>
@@ -18,3 +26,16 @@
   <li><a href="https://www.torproject.org/docs/faq.html.en#BandwidthShaping">https://www.torproject.org/docs/faq.html.en#BandwidthShaping</a></li>
 </ul>
 </div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'torcalc'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
