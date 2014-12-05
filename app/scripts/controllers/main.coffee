@@ -50,13 +50,4 @@ angular.module('torCalcApp')
     if $location.search().type and $location.search().bw
       $scope.typeToggle($location.search().type, url=false)
 
-  .directive 'selectOnClick', ($window) ->
-    return { 
-      link: (scope, element) ->
-        element.on 'click', ->
-          selection = $window.getSelection()        
-          range = document.createRange()
-          range.selectNodeContents(element[0])
-          selection.removeAllRanges()
-          selection.addRange(range)
-    }
+
